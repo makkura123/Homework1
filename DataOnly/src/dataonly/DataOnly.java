@@ -11,6 +11,7 @@ package dataonly;
  */
 public class DataOnly {
 
+    // Initialize public properties for DataOnly
     int i;
     float f;
     boolean b;
@@ -18,12 +19,16 @@ public class DataOnly {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        // Create new DataOnly object
         DataOnly d = new DataOnly();
+       
+        // Assign values to i, f and b
         d.i = 47;
         d.f = 1.1f;
         d.b = false;
         
+        // Prints out values as decimal, float and boolean
         System.out.printf("DataOnly output: %d, %f, %b ", d.i, d.f, d.b);
     }
     
