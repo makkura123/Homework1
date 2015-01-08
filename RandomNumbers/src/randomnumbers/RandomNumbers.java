@@ -14,6 +14,7 @@ public class RandomNumbers {
             /**
              * Generate 2 random numbers between 0 and 100
              */
+             //PT: rand should be created and initialized outside of the for loop. -3
             Random rand = new Random();
             int rand1 = rand.nextInt(100);
             int rand2 = rand.nextInt(100);
