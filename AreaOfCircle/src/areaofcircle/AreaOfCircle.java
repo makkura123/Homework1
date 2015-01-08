@@ -14,6 +14,8 @@ public class AreaOfCircle {
         /**
          * Prompts user for radius input
          */
+         //PT: As before, get in the habit of breaking things out into separate classes.
+         //    This works, but as programs get bigger, this approach won't be maintainable
         System.out.println("What is the radius of your circle? ");
         Scanner input = new Scanner(System.in);
         int radius = (int) input.nextFloat();
@@ -21,7 +23,7 @@ public class AreaOfCircle {
         /** 
          * Assign 3.14 as a float to variable PI
          */
-        final float PI = 3.14f;
+        final float PI = 3.14f;  //PT: Why not use java.lang.Math.PI?
         
         /**
          * Calculates the area of the circle and prints the result
