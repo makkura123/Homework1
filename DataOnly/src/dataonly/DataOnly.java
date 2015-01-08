@@ -20,6 +20,9 @@ public class DataOnly {
      */
     public static void main(String[] args) {
         
+        //PT: This is fine, but I would rather DataOnly be  separate class, and your Main
+        //    function uses that class. It just gets us in the better habit of encapsulation.
+        
         // Create new DataOnly object
         DataOnly d = new DataOnly();
        
